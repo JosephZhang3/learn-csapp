@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* 
+* 练习题2.25 solution
 */
 float sum_elem(float a[],unsigned length){
     int i = 0;
