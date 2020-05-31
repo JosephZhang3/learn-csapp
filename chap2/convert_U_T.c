@@ -25,7 +25,7 @@ int main() {
     printf("%d\n", tyPlus);// -1794967296 证明是递增的
 
     int x = -1;
-    unsigned u = 2147483648;// just is 2^31
+    unsigned u = 2147483648;// it just is 2^31
 
     printf("x = %d = %u\n", x, x);
     printf("u = %d = %u\n", u, u);
