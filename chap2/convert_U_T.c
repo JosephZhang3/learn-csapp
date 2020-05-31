@@ -1,6 +1,3 @@
-//
-// Created by mac on 2020/5/27.
-//
 #include <stdio.h>
 
 int main() {
