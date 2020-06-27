@@ -14,8 +14,8 @@ int u_add_ok(unsigned x, unsigned y) {
 
 int main() {
     // 2^32 是42亿 10位十进制数，那么可以推断 2^64 是20位十进制数
-    printf("%lli\n", INT64_MAX);
-    printf("%llu\n", UINT64_MAX);// 18446744073709551615 unsigned long long 64bit
+//    printf("%lli\n", INT64_MAX);
+//    printf("%llu\n", UINT64_MAX);// 18446744073709551615 unsigned long long 64bit
 
     printf("judging result is %d\n", u_add_ok(4294967295, 0));//边界值，刚好没有溢出
     printf("judging result is %d\n", u_add_ok(4294967295, 1));//溢出了。溢出后的计算结果是 4294967295 + 1 - 2^32 = 0
