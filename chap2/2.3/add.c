@@ -8,8 +8,15 @@ int u_add_ok(unsigned x, unsigned y) {
         printf("result after overflow is %u\n", sum);
         return 0;
     }
-    printf("overflow not exist\n");
+    printf("overflow not happened\n");
     return 1;
+}
+
+/**
+ * 补码加法
+ */
+int t_add(){
+    printf("%lld\n",INT64_MIN );
 }
 
 int main() {
@@ -19,4 +26,6 @@ int main() {
 
     printf("judging result is %d\n", u_add_ok(4294967295, 0));//边界值，刚好没有溢出
     printf("judging result is %d\n", u_add_ok(4294967295, 1));//溢出了。溢出后的计算结果是 4294967295 + 1 - 2^32 = 0
+
+    t_add();
 }
