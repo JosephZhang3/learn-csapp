@@ -2,3 +2,5 @@
 /cmake-build-debug
 *.s
 *.o
+*.exe
+*.obj
